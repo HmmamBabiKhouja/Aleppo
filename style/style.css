@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 body {
@@ -121,7 +122,7 @@ nav{
 }
 
 /* imgs */
-.images{
+.image{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -133,7 +134,7 @@ nav{
   font-size: 2.5em;
   padding: 0 3px;
   vertical-align: center;
-  transition: 0.3s;
+  transition: 0.4s;
   outline: none;
   cursor: pointer;
 }
@@ -146,8 +147,6 @@ nav{
 .arrow-right{
   float:right;
 }
-
-
 
 /* dots */
 .dots{
@@ -163,11 +162,12 @@ nav{
   background-color:#d1d1d1;
   border-radius:50%;
   cursor: pointer;
+  transition: 0.3s;
 }
 
+.active,
 .dot:hover{
   background-color:#696969;
-  transition: 0.3s;
 }
 
 
