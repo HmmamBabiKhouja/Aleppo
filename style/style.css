@@ -103,12 +103,11 @@ nav{
   width: 100%;
 }
 
-.img-slider,
 .mapouter {
   position: relative;
   text-align: right;
-  width: 98%;
-  height: 60vh;
+  width: 75%;
+  height: 75vh;
   margin: 0 auto;
   border: 1px solid #0d0b0a;
   border-radius: 2px;
@@ -118,7 +117,13 @@ nav{
 ****** PLACES ******
 ********************/
 .img-slider{
-  /* display: block; */
+  position: relative;
+  text-align: right;
+  width: 75%;
+  height: 90vh;
+  margin: 0 auto;
+  border: 1px solid #0d0b0a;
+  border-radius: 2px;
 }
 
 /* imgs */
@@ -131,25 +136,28 @@ nav{
 
 /* arrows */
 .arrow{
-  font-size: 2.5em;
-  padding: 0 3px;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 4px 16px; 
   vertical-align: center;
   transition: 0.4s;
   outline: none;
   cursor: pointer;
-    color: #000000;
-  background-color: #ffffff;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
 }
 
-.arrow:hover,
-.arrow:active,
-.arrow:focus{
-  color: #ffffff;
-  background-color: #000000;
+.arrow:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+
+.arrow-left{
+  left:0;
 }
 
 .arrow-right{
-  float:right;
+  right: 0;
 }
 
 /* dots */
@@ -157,11 +165,12 @@ nav{
   width: 100%;
   height: auto;
   text-align: center;
+  margin-top:8px;
 }
 
 .dot{
-  width:10px;
-  height: 10px;
+  width:12px;
+  height: 12px;
   display: inline-block;
   background-color:#d1d1d1;
   border-radius:50%;
