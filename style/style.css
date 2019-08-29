@@ -130,7 +130,8 @@ nav{
 }
 
 /* arrows */
-.arrow{
+.arrow,
+.arrow:focus{
   font-size: 2.5em;
   padding: 0 3px;
   vertical-align: center;
