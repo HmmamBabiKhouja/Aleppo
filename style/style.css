@@ -130,8 +130,7 @@ nav{
 }
 
 /* arrows */
-.arrow,
-.arrow:focus{
+.arrow{
   font-size: 2.5em;
   padding: 0 3px;
   vertical-align: center;
@@ -142,7 +141,8 @@ nav{
   background-color: #ffffff;
 }
 
-.arrow:hover{
+.arrow:hover,
+.arrow:active{
   color: #ffffff;
   background-color: #000000;
 }
