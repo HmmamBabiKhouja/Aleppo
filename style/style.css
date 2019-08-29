@@ -142,7 +142,8 @@ nav{
 }
 
 .arrow:hover,
-.arrow:active{
+.arrow:active,
+.arrow:focus{
   color: #ffffff;
   background-color: #000000;
 }
