@@ -4,4 +4,14 @@
         font-size: 18px;
     }
 
+    .container{
+        width: 85%;
+    }
+
+    .mapouter,
+    .img-slider{
+        margin: 0 auto;
+        width: 85%;
+    }
+
 }
