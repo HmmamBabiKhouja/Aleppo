@@ -5,13 +5,12 @@
     }
 
     .container{
-        width: 95%;
+        width: 90%;
     }
 
     .mapouter,
     .img-slider{
-        margin: 0 auto;
-        width: 95%;
+        width: 80%;
     }
 
 }
