@@ -10,7 +10,7 @@ function slide(num){
 }
 
 function showDivs(num){
-    let images = document.getElementsByClassName("image");
+    let images = document.getElementsByClassName("img-slider");
     let dots = document.getElementsByClassName("dot");
 
     if(slideIndex>images.length){
