@@ -1,4 +1,15 @@
+@media only screen and (min-width:640px){
+    .mapouter {
+        width: 480px;
+        height: 60vh;
+    }
+
+}
 @media only screen and (min-width:768px){
+    .mapouter {
+        width: 640px;
+        height: 70vh;
+    }
 
     body{
         font-size: 18px;
@@ -6,4 +17,16 @@
 
 }
 
+@media only screen and (min-width:960px){
+    .mapouter {
+        width: 768px;
+    }
 
+}
+
+@media only screen and (min-width:1440px){
+    .mapouter {
+        width: 1024px;
+    }
+
+}
