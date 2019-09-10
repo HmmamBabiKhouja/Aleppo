@@ -1,7 +1,8 @@
 /* color links #884425*/
 
 * {
-  margin: 0;
+  margin:0;
+  margin-top: 0.6rem;
   padding: 0;
   box-sizing: border-box;
 }
@@ -25,7 +26,6 @@ h1 {
   border: 1.5px solid #0d0b0a;
   border-radius: 5px;
   background-color: #f1e2db;
-  margin-top: 15px;
 }
 
 /********************
@@ -56,19 +56,17 @@ h3{
 }
 
 .article{
-  margin-top: 0.6rem;
   color: #07020F;
-}
-
-.beginging{
-  color:#b30c11;
-  font-size: 1.5em;
 }
 
 .symbol{
   font-size:0.5em; 
 }
 
+.beginging{
+  color:#b30c11;
+  font-size: 1.5em;
+}
 
 /********************
 ******** NAV ********
@@ -79,6 +77,7 @@ nav{
   justify-content: space-between;
   width: 85%;
   margin: 0 auto;
+  margin-top: inherit;
 }
 
 .burger{
@@ -89,7 +88,6 @@ nav{
 .line{
   height: 5px;
   width: 30px;
-  margin:6px 0;
   background: #630709;
 }
 
@@ -97,14 +95,16 @@ nav{
 ******** MAP ********
 ********************/
 
+#gmap_canvas {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
-  height: 100%;
-  width: 100%;
-}
-
-#gmap_canvas {
+  margin: 0;
   height: 100%;
   width: 100%;
 }
@@ -113,9 +113,9 @@ nav{
   position: relative;
   text-align: right;
   width: 100%;
-  height: 50vh;
+  height: 75vh;
   margin: 0 auto;
-  margin-top: 0.6em;
+  margin-top: inherit;
   border: 1.5px solid #0d0b0a;
   border-radius: 3px;
 }
@@ -126,12 +126,14 @@ nav{
 .img-container{
   position: relative;
   margin: 0 auto;
+  margin-top: inherit;
 }
 
 /* imgs */
 .single-image{
   display: block;
   margin: 0 auto;
+  margin-top: inherit;
   border: 1px solid #0d0b0a;
   border-radius: 3px;
 }
