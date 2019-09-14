@@ -111,7 +111,7 @@ nav{
 
 .iframe-container {
   position: relative;
-  width: 85%;
+  width: 66vw;
   height: auto;
   margin: 0 auto;
   margin-top: inherit;
@@ -126,6 +126,13 @@ nav{
   position: relative;
   margin: 0 auto;
   margin-top: inherit;
+}
+
+.img-border{
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  position: relative;
 }
 
 /* imgs */
@@ -177,7 +184,7 @@ nav{
   width:12px;
   height: 12px;
   display: inline-block;
-  background-color:#d1d1d1;
+  background-color:#c7c7c7;
   border-radius:50%;
   cursor: pointer;
   transition: 0.3s;
@@ -185,7 +192,7 @@ nav{
 
 .active,
 .dot:hover{
-  background-color:#696969;
+  background-color:#505050;
 }
 
 /* YOUTUBE video */
