@@ -119,18 +119,10 @@ nav{
   border-radius: 3px;
 }
 
-.YouTube-vid-container{
-  position: relative;
-  width: 74vw;
-  margin: 0 auto;
-  margin-top: inherit;
-  border: 1.5px solid #0d0b0a;
-  border-radius: 3px;
-}
-
 /********************
 ****** IMAGES ******
 ********************/
+
 .img-container{
   position: relative;
   margin: 0 auto;
@@ -138,8 +130,7 @@ nav{
 }
 
 .img-border{
-  width: fit-content;
-  height: fit-content;
+  display: table;
   margin: 0 auto;
   position: relative;
 }
@@ -156,17 +147,17 @@ nav{
 /* arrows */
 .arrow,
 .arrow:visited{
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
   font-size: 2em;
   font-weight: bold;
   padding: 4px 16px; 
-  transition: 0.4s;
   outline: none;
   cursor: pointer;
   color: #ffffff;
   background-color: transparent; 
-  position: absolute;
-  top: 50%;
-  margin-top: -30px;
+  transition: 0.4s;
 }
 
 .arrow:hover{
@@ -204,11 +195,21 @@ nav{
   background-color:#505050;
 }
 
-/* YOUTUBE video */
+/********************
+*** YOUTUBE-VIDEO ***
+********************/
+
+.YouTube-vid-container{
+  position: relative;
+  width: 74vw;
+  margin: 0 auto;
+  margin-top: inherit;
+  border: 1.5px solid #0d0b0a;
+  border-radius: 3px;
+}
 
 #music-box{
   height: 100%;
   width: 100%;
   margin: 0;
 }
-
