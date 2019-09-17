@@ -167,6 +167,13 @@ nav{
   background-color: rgba(0,0,0,0.8);
 }
 
+@media (hover:none){
+  
+  .arrow:hover{
+    background-color:transparent;
+  }
+}
+
 .arrow-left{
   left:0;
 }
