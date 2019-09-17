@@ -163,15 +163,15 @@ nav{
   transition: 0.4s;
 }
 
-.arrow:hover{
-  background-color: rgba(0,0,0,0.8);
-}
-
 @media (hover:none){
   
   .arrow:hover{
     background-color:transparent;
   }
+}
+
+.arrow:hover{
+  background-color: rgba(0,0,0,0.8);
 }
 
 .arrow-left{
