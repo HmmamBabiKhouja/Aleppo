@@ -148,8 +148,7 @@ nav{
 }
 
 /* arrows */
-.arrow,
-.arrow:visited{
+.arrow{
   position: absolute;
   top: 50%;
   margin-top: -30px;
@@ -163,12 +162,16 @@ nav{
   transition: 0.4s;
 }
 
-/* @media (hover:none){
-  
+@media (hover: none) {
   .arrow:hover{
-    background-color:transparent;
+    background-color: red;
   }
-} */
+}
+@media (hover: hover) {
+  .arrow:hover{
+    background-color: rgba(0,0,0,0.8);
+  }
+}
 
 .arrow:hover{
   background-color: rgba(0,0,0,0.8);
