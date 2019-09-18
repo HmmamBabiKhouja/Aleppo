@@ -167,7 +167,7 @@ nav{
     background-color: rgba(0,0,0,0.8);
   }
 
-  https://stackoverflow.com/questions/23885255/how-to-remove-ignore-hover-css-style-on-touch-devices
+  /* https://stackoverflow.com/questions/23885255/how-to-remove-ignore-hover-css-style-on-touch-devices */
 @media (hover: none) {
   .arrow:hover{
     background-color: red;
