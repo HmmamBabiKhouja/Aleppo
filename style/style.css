@@ -163,17 +163,16 @@ nav{
   transition: 0.4s;
 }
 
-  .arrow:hover{
+  /* .arrow:hover{
     background-color: rgba(0,0,0,0.8);
   }
 
-  /* https://stackoverflow.com/questions/23885255/how-to-remove-ignore-hover-css-style-on-touch-devices */
+   https://stackoverflow.com/questions/23885255/how-to-remove-ignore-hover-css-style-on-touch-devices 
 @media (hover: none) {
   .arrow:hover{
     background-color: red;
   }
-}
-
+} */
 
 .arrow-left{
   left:0;
@@ -181,6 +180,11 @@ nav{
 
 .arrow-right{
   right: 0;
+}
+
+.using-arrows{
+  color:#505050;
+  font-size: 0.8em;
 }
 
 /* img-title */
@@ -198,7 +202,7 @@ nav{
   width: 100%;
   color: #ffffff;
   background-color: rgba(0,0,0,0.8);
-  
+  font-size: 0.8em;
 }
 
 
