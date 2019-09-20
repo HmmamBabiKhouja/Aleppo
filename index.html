@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/queries.css">
     <!-- put just to remove an error, try to remove and see if you'd get any errors -->
@@ -21,16 +21,17 @@
             <div class="burger-line"></div>
         </div>
         <div class="tabs-container">
-            <ul class="tabs-list">
+            <ul class="tabs-list container">
                 <li>التسمية والتاريخ</li>
                 <li>المعالم</li>
                 <li>الوضع الديموغرافي</li>
                 <li>الفنون والثقافة</li>
                 <li>صناعات المدينة</li>
                 <li>المطبخ الحلبي</li>
+                <li>إقرأ المزيد</li>
             </ul>
         </div>
-    </nav>
+        </nav>
     <div class="container content">
         <div class="container">
             <section class="section about">
@@ -363,21 +364,24 @@
                 <div class="img-container">
                     <div class="img-border">
                         <img class="single-image" srcset="
-                                img2/10(382w).jpg 382w,
-                                img2/10(577w).jpg 577w,
-                                img2/10(693w).jpg 693w,
-                                img2/10(840w).jpg 840w,
-                                img2/10(1680w).jpg 1680w,
+                                img2/10(576w).jpg 576w,
+                                img2/10(691w).jpg 691w,
+                                img2/10(921w).jpg 921w,
+                                img2/10(1229w).jpg 1229w,
+                                img2/10(1440w).jpg 1440w,
+                                img2/10(1728w).jpg 1728w,
                                 " sizes="
-                                        (min-width:1024px) 840px,  
-                                        (min-width:768px) 678px,  
-                                        (min-width:640px) 577px,  
-                                        (min-width:425px) 382px,  
-                                        (min-width:320px) 288px,  
-                                        90vw,
+                                (min-width:1025px) 60vw,  
+                                (min-width:769px) 80vw,  
+                                    90vw,
                                         " src="img2/10(840w).jpg"
                             alt="صحن الجامع الأموي ويظهر قبتي الوضوء في الصورة" />
                     </div>
+                    <!--explaing the picture sizes
+                    (min-width:1025px) 60vw, this would go for laptop and bigger screens   
+                    (min-width:769px) 80vw, this would go for ipads-landscape and small laptops  
+                    90vw, phones and ipads-protrait 
+                    -->
                 </div>
             </section>
             <section class="section religion">

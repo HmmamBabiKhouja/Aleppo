@@ -16,7 +16,6 @@ body {
   overflow-x:hidden;
   width: 100vw;
   max-width: 1200px;
-
   margin: 0 auto;
 }
 
@@ -30,7 +29,6 @@ h1 {
   border: 1.5px solid #0d0b0a;
   border-radius: 5px;
   background-color: #f1e2db;
-  
 }
 
 /********************
@@ -83,7 +81,7 @@ article{
 nav{
   display: flex;
   justify-content: space-between;
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   margin-top: inherit;
 }
@@ -104,29 +102,36 @@ nav{
   transition: 0.5s;
 }
 
-
-
 /* slider */
+
 .tabs-container{
-}
-
-.tabs-list{
-
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-end;
-  list-style: none;
   top: 0;
   left: 0;
   transform: translateX(-100%);
   transition: 0.5s;
   height: 100vh;
   width: 50%;
-  background: rgba(63,07,09,0.8);
+  background: rgba(63,07,09,0.9);
   color: #f1e2db;
   z-index: 1;
+  margin: 0;
+}
+
+.tabs-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  list-style: none;
+  width: 100%;
+  height: 70vh;
+  margin-top:3.2rem;
+}
+
+.tabs-list>li{
+  font-size: 1.1rem;
+  margin-right: 12px;
 }
 
 /********************
@@ -179,7 +184,7 @@ nav{
   margin: 0 auto;
   margin-top: inherit;
   border: 1px solid #0d0b0a;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 /* arrows */
@@ -285,10 +290,11 @@ nav{
 /********************
 ***** JS active *****
 ********************/
-.tabs-list-active{
+.tabs-container-active{
   transform: translateX(0%);
 }
 
 .burger-line-active{
   background-color: #f1e2db;
+  margin-right:auto;
 }

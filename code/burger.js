@@ -1,9 +1,9 @@
 let burger = document.querySelector(".burger");
 let burgerLine = document.querySelectorAll(".burger-line");
-let tabsList = document.querySelector(".tabs-list");
+let tabsList = document.querySelector(".tabs-container");
 
 burger.addEventListener("click", () => {
-    tabsList.classList.toggle("tabs-list-active");
+    tabsList.classList.toggle("tabs-container-active");
     burgerLineColorChange();
 });
 
