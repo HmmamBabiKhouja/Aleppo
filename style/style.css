@@ -94,7 +94,7 @@ nav{
   display: block;
   cursor: pointer;
   margin: auto 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .burger-line{
@@ -104,9 +104,6 @@ nav{
   transition: 0.5s;
 }
 
-.burger-line-active{
-  background-color: #f1e2db;
-}
 
 
 /* slider */
@@ -114,24 +111,22 @@ nav{
 }
 
 .tabs-list{
+
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-end;
   list-style: none;
-  position: absolute;
   top: 0;
   left: 0;
   transform: translateX(-100%);
+  transition: 0.5s;
   height: 100vh;
   width: 50%;
   background: rgba(63,07,09,0.8);
-  transition: 0.5s;
   color: #f1e2db;
-}
-
-.tabs-list-active{
-  transform: translateX(0%);
+  z-index: 1;
 }
 
 /********************
@@ -244,8 +239,6 @@ nav{
   font-size: 0.8em;
 }
 
-
-
 /* dots */
 .dots{
   width: 100%;
@@ -264,7 +257,7 @@ nav{
   transition: 0.3s;
 }
 
-.active,
+.dot-active,
 .dot:hover{
   background-color:#505050;
 }
@@ -286,4 +279,16 @@ nav{
   height: 100%;
   width: 100%;
   margin: 0;
+}
+
+
+/********************
+***** JS active *****
+********************/
+.tabs-list-active{
+  transform: translateX(0%);
+}
+
+.burger-line-active{
+  background-color: #f1e2db;
 }
