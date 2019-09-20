@@ -4,6 +4,7 @@ let tabsList = document.querySelector(".tabs-container");
 
 burger.addEventListener("click", () => {
     tabsList.classList.toggle("tabs-container-active");
+    burger.classList.toggle("burger-active");
     burgerLineColorChange();
 });
 

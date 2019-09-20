@@ -8,4 +8,22 @@
     body{
         font-size: 20px;
     }
+    
+    .tabs-list{
+        margin-top:5.5rem;
+    }
+    
+    
+}
+
+@media only screen and (min-width:1024px){
+    .tabs-container{
+        width: 20%;
+    }
+    
+    
+    .burger-active{
+        transform:translate(-350%); 
+        transition: 0.5s;
+    }
 }
