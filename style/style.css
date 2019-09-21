@@ -106,12 +106,12 @@ nav{
 /* slider */
 
 .tabs-container{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   transform: translateX(-100%);
   transition: 0.5s;
-  height: 100vh;
+  height:100% ;
   width: 50%;
   background: rgba(63,07,09,0.9);
   color: #f1e2db;
