@@ -92,14 +92,26 @@ nav{
   display: block;
   cursor: pointer;
   margin: auto 0;
-  z-index: 2;
   transition: 0.5s;
+}
+
+.burger-active{
+  position: fixed;
+  left: 5vw;
+  z-index: 2;
+  margin-top:0.3rem; 
 }
 
 .burger-line{
   height: 5px;
   width: 33px;
-  background: rgba(63,07,09,0.9);
+  background: #630709;
+}
+
+.burger-line-active{
+  background-color: #f1e2db;
+  margin-right:auto;
+  transition: 0.5s;
 }
 
 /* slider */
@@ -118,6 +130,10 @@ nav{
   margin: 0;
 }
 
+.tabs-container-active{
+  transform: translateX(0%);
+}
+
 .tabs-list{
   display: flex;
   flex-direction: column;
@@ -131,7 +147,7 @@ nav{
 
 .tabs-list>li{
   font-size: 1.1rem;
-  margin-right: 12px;
+  margin-right: 14px;
 }
 
 /********************
@@ -284,26 +300,5 @@ nav{
   height: 100%;
   width: 100%;
   margin: 0;
-}
-
-
-/********************
-***** JS active *****
-********************/
-.tabs-container-active{
-  transform: translateX(0%);
-}
-
-.burger-active{
-  position: fixed;
-  left: 10vw;
-  z-index: 2;
-  margin-top:0.9rem; 
-}
-
-.burger-line-active{
-  background-color: #f1e2db;
-  margin-right:auto;
-  transition: 0.5s;
 }
 
