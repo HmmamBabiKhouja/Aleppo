@@ -9,10 +9,13 @@
         font-size: 20px;
     }
     
+    .insider-burger{
+        margin-top:2.1rem; 
+    }
+
     .tabs-list{
         margin-top:5.5rem;
     }
-    
 
 }
 
@@ -20,8 +23,7 @@
     .tabs-container{
         width: 20%;
     }
-    
-    
+
     .burger-active{
         transform:translate(-350%); 
         transition: 0.5s;

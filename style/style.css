@@ -99,8 +99,7 @@ nav{
 .burger-line{
   height: 5px;
   width: 33px;
-  background: #630709;
-  transition: 0.5s;
+  background: rgba(63,07,09,0.9);
 }
 
 /* slider */
@@ -295,8 +294,16 @@ nav{
   transform: translateX(0%);
 }
 
+.burger-active{
+  position: fixed;
+  left: 10vw;
+  z-index: 2;
+  margin-top:0.9rem; 
+}
+
 .burger-line-active{
   background-color: #f1e2db;
   margin-right:auto;
+  transition: 0.5s;
 }
 

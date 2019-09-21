@@ -3,9 +3,9 @@ let burgerLine = document.querySelectorAll(".burger-line");
 let tabsContainer = document.querySelector(".tabs-container");
 
 burger.addEventListener("click", () => {
-    tabsContainer.classList.toggle("tabs-container-active");
-    burger.classList.toggle("burger-active");
-    burgerLineColorChange();
+  tabsContainer.classList.toggle("tabs-container-active");
+  burger.classList.toggle("burger-active");
+  burgerLineColorChange();
 });
 
 function burgerLineColorChange() {
