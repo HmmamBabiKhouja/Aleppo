@@ -177,8 +177,8 @@ nav{
 
 .map-container {
   position: relative;
-  width: 74vw;
-  height: 22vh;
+  width: 100%;
+  height: 35vh;
   margin: 0 auto;
   margin-top: inherit;
   border: 1.5px solid #0d0b0a;
@@ -294,18 +294,8 @@ nav{
 *** YOUTUBE-VIDEO ***
 ********************/
 
-.YouTube-vid-container{
-  position: relative;
-  width: 74vw;
-  margin: 0 auto;
-  margin-top: inherit;
-  border: 1.5px solid #0d0b0a;
-  border-radius: 3px;
-}
-
-#music-box{
-  height: 100%;
+.music-box{
+  height: 35vh;
   width: 100%;
-  margin: 0;
 }
 

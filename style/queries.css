@@ -1,10 +1,6 @@
 
 @media only screen and (min-width:768px){
-    .YouTube-vid-container,
-    .map-container{
-        width:62vw;
-        height: 76vh;
-    }
+    
     body{
         font-size: 20px;
     }
@@ -20,6 +16,7 @@
 }
 
 @media only screen and (min-width:1024px){
+
     .tabs-container{
         width: 20%;
     }
