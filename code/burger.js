@@ -9,7 +9,7 @@ burger.addEventListener("click", () => {
 });
 
 function burgerLineColorChange() {
-  for (let i = 0; i < burgerLine.length; i++) {
-    burgerLine[i].classList.toggle("burger-line-active");
-  }
+    for (let i = 0; i < burgerLine.length; i++) {
+        burgerLine[i].classList.toggle("burger-line-active");
+    }
 }
