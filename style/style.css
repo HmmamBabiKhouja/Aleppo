@@ -93,12 +93,12 @@ nav{
   cursor: pointer;
   margin: auto 0;
   transition: 0.5s;
+  z-index: 2;
 }
 
 .burger-active{
   position: fixed;
   left: 5vw;
-  z-index: 2;
   margin-top:0.3rem; 
 }
 
@@ -106,12 +106,12 @@ nav{
   height: 5px;
   width: 33px;
   background: #630709;
+  transition: 0.5s;
 }
 
 .burger-line-active{
   background-color: #f1e2db;
   margin-right:auto;
-  transition: 0.5s;
 }
 
 /* slider */
@@ -149,6 +149,13 @@ nav{
   font-size: 1.1rem;
   margin-right: 14px;
 }
+
+.tabs-list>li>a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
 
 /********************
 ******** MAP ********
@@ -215,7 +222,7 @@ nav{
   cursor: pointer;
   color: #ffffff;
   background-color: transparent; 
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
   /* .arrow:hover{
@@ -275,7 +282,7 @@ nav{
   background-color:#c7c7c7;
   border-radius:50%;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .dot-active,

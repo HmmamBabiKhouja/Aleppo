@@ -22,19 +22,19 @@
         </div>
         <div class="tabs-container">
             <ul class="tabs-list container">
-                <li>التسمية والتاريخ</li>
-                <li>المعالم</li>
-                <li>الوضع الديموغرافي</li>
-                <li>الفنون والثقافة</li>
-                <li>صناعات المدينة</li>
-                <li>المطبخ الحلبي</li>
-                <li>إقرأ المزيد</li>
+                <li><a href="#about">التسمية والتاريخ</a></li>
+                <li><a href="#places">المعالم</a></li>
+                <li><a href="#demography">الوضع الديموغرافي</a></li>
+                <li><a href="#activites">الفنون والثقافة</a></li>
+                <li><a href="#industry">الصناعات المدينة</a></li>
+                <li><a href="#food">المطبخ الحلبي</a></li>
+                <li><a href="#">إقرأ المزيد</a></li>
             </ul>
         </div>
     </nav>
     <div class="container content">
         <div class="container">
-            <section class="section about">
+            <section class="section" id="about">
                 <h2>التسمية والتاريخ</h2>
                 <article>
                     <span class="beginging">حلب </span>هي مدينة في سوريا تقع شمال غرب سوريا على بعد 310 كم (193 ميلاً)
@@ -91,7 +91,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section places">
+            <section class="section" id="places">
                 <h2>المعالم</h2>
                 <article>
                     يوجد نسبياً انقسام واضح بين حدود المدينة القديمة والمدينة الحديثة في حلب, الجزء القديم موجودٌ ضمن
@@ -167,37 +167,34 @@
                 <div class="img-container">
                     <div class="img-border">
                         <!-- the 382 level is not needed since a lot of devices are 2dpr now -->
-                        <img class="single-image img-slider" srcset="
-                                                        img2/1(576w).jpg 576w,
-                                                        img2/1(691w).jpg 691w,
-                                                        img2/1(921w).jpg 921w,
-                                                        img2/1(1229w).jpg 1229w,
-                                                        img2/1(1440w).jpg 1440w,
-                                                        img2/1(1728w).jpg 1728w,
-                                                        " sizes="
-                                                                (min-width:1024px) 840px,  
-                                                                (min-width:768px) 678px,  
-                                                                (min-width:640px) 577px,  
-                                                                (min-width:425px) 382px,  
-                                                                (min-width:320px) 288px,  
+                            <img class="single-image img-slider" srcset="
+                                                            img2/1(576w).jpg 576w,
+                                                            img2/1(691w).jpg 691w,
+                                                            img2/1(921w).jpg 921w,
+                                                            img2/1(1229w).jpg 1229w,
+                                                            img2/1(1440w).jpg 1440w,
+                                                            img2/1(1728w).jpg 1728w,
+                                                            " sizes="
+                                                            (min-width:1025px) 60vw,  
+                                                            (min-width:769px) 80vw,  
                                                                 90vw,
-                                                                " src="img2/1(840w).jpg"
-                            alt="البوابة الرئيسية للقلعة نهارا">
-                        <img class="single-image img-slider" srcset="
-                                                        img2/2(382w).jpg 382w,
-                                                        img2/2(577w).jpg 577w,
-                                                        img2/2(693w).jpg 693w,
-                                                        img2/2(840w).jpg 840w,
-                                                        img2/2(1680w).jpg 1680w,
-                                                        " sizes="
-                                                                (min-width:1024px) 840px,  
-                                                                (min-width:768px) 678px,  
-                                                                (min-width:640px) 577px,  
-                                                                (min-width:425px) 382px,  
-                                                                (min-width:320px) 288px,  
-                                                                90vw,
-                                                                " src="img2/2(840w).jpg"
-                            alt="صورة اقرب للبوابة تظهر فسيفساء حجارتها">
+                                                                    " src="img2/1(840w).jpg"
+                                alt="صحن الجامع الأموي ويظهر قبتي الوضوء في الصورة" />
+                                
+                                <img class="single-image img-slider" srcset="
+                                                                img2/1(576w).jpg 576w,
+                                                                img2/1(691w).jpg 691w,
+                                                                img2/1(921w).jpg 921w,
+                                                                img2/1(1229w).jpg 1229w,
+                                                                img2/1(1440w).jpg 1440w,
+                                                                img2/1(1728w).jpg 1728w,
+                                                                " sizes="
+                                                                (min-width:1025px) 60vw,  
+                                                                (min-width:769px) 80vw,  
+                                                                    90vw,
+                                                                        " src="img2/1(840w).jpg"
+                                    alt="صحن الجامع الأموي ويظهر قبتي الوضوء في الصورة" />
+
                         <img class="single-image img-slider" srcset="
                                                         img2/3(382w).jpg 382w,
                                                         img2/3(577w).jpg 577w,
@@ -385,7 +382,7 @@
                     -->
                 </div>
             </section>
-            <section class="section religion">
+            <section class="section" id="demography">
                 <h2>الوضع الديموغرافي وتناغم السكان</h2>
                 <article>
                     وصل تعداد السكان في أواخر العام 2005 الى 2.301.570 مليون نسمة كما أعلن مجلس المدينة
@@ -410,7 +407,7 @@
                     المسافة الجغرافية.
                 </article>
             </section>
-            <section class="section activities">
+            <section class="section" id="activites">
                 <h2>الفنون والثقافة</h2>
                 <article>
                     حلب مدينة الفن والفنون ولا يمكن ذكر الفن في الوطن العربي دون ذكر حلب فقد كان سيف الدولة يهتم بالعلوم
@@ -442,7 +439,7 @@
                         allowfullscreen></iframe>
                 </div>
             </section>
-            <section class="section industry">
+            <section class="section" id="industry">
                 <h2>صناعات المدينة</h2>
                 <h3><span class="symbol">&#10045;&nbsp;&nbsp;</span>الصناعات التقليدية</h3>
                 <article class="container article-point">
@@ -477,7 +474,7 @@
                     نصف حصة التصدير.
                 </article>
             </section>
-            <section class="section food">
+            <section class="section" id="food">
                 <h2>المطبخ الحلبي</h2>
                 <article>
                     يتميز المطبخ السوري بشكلٍ عام والمطبخ الحلبي بشكلٍ خاص بتنوع أطباقه, الأطباق السورية غنية بالزيتون,
