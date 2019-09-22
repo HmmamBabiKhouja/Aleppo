@@ -1,6 +1,6 @@
 
 @media only screen and (min-width:768px){
-    
+
     body{
         font-size: 20px;
     }
@@ -13,6 +13,10 @@
         margin-top:5.5rem;
     }
 
+    .music-box{
+        height:50vh;
+    }
+
 }
 
 @media only screen and (min-width:1024px){
@@ -20,8 +24,13 @@
     .tabs-container{
         width: 20%;
     }
-
+    
     .burger-active{
         transform:translate(-90%); 
+    }
+
+    .music-box{
+        width:60vw;
+        height:60vh;
     }
 }
