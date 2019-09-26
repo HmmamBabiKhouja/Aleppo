@@ -2,15 +2,15 @@
 
 * {
   margin: 0;
-  margin-top: 0.6rem;
   padding: 0;
   box-sizing: border-box;
+  margin-bottom:10px; 
 }
 
 body {
   /* user-select: none; */
   outline: none;
-  font-family: "Amiri", serif;
+  font-family: "Amiri", serif,Arial, Helvetica; 
   font-size: 14px;
   background-color: #d09d85;
   overflow-x: hidden;
@@ -39,7 +39,10 @@ h1 {
 .container {
   width: 96%;
   margin: 0 auto;
-  margin-top: inherit;
+}
+
+.section{
+  padding-top: 16px;
 }
 
 .section:last-child {
@@ -57,7 +60,7 @@ h2 {
 }
 
 h3 {
-  margin-right: 0.3em;
+  margin-right: 10px;
 }
 
 article {
@@ -66,6 +69,7 @@ article {
 
 .article-point {
   font-size: 0.8em;
+  margin-bottom: 10px;
 }
 
 .symbol {
@@ -86,7 +90,6 @@ nav {
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
-  margin-top: inherit;
 }
 
 /* burger  */
@@ -102,7 +105,6 @@ nav {
 .burger-active {
   position: fixed;
   left: 5vw;
-  margin-top: 0.3rem;
 }
 
 .burger-line {
@@ -110,11 +112,12 @@ nav {
   width: 33px;
   background: #630709;
   transition: 0.5s;
+  margin: 0.6rem;
 }
 
 .burger-line-active {
   background-color: #f1e2db;
-  margin-right: auto;
+  /* margin-right: auto;<!> */
 }
 
 /* slider */
@@ -236,7 +239,6 @@ nav {
   width: 100%;
   height: auto;
   text-align: center;
-  margin-top: 8px;
 }
 
 .dot {
@@ -268,17 +270,15 @@ nav {
   padding-top: 56.25%;
   height: 0;
   width: 100%;
-  overflow: hidden;
 }
 
 .gmap,
 .YouTube-vid {
+  border-radius: 5px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  border-radius: 5px;
-  border: 1px solid #000000;
 }
