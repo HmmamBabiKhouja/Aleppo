@@ -4,26 +4,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-bottom:10px; 
+  margin-bottom:0.6rem; 
 }
 
 body {
   /* user-select: none; */
   outline: none;
-  font-family: "Amiri", serif,Arial, Helvetica; 
-  font-size: 14px;
+  font-family: "Amiri", serif; 
   background-color: #d09d85;
   overflow-x: hidden;
   width: 100vw;
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 2.4rem;
-}
-
-h1 {
-  font-family: "Aref Ruqaa", serif;
-  font-size: 2em;
-  color: #630709;
+  padding-bottom: 1.8rem;
 }
 
 .content {
@@ -42,7 +35,7 @@ h1 {
 }
 
 .section{
-  padding-top: 16px;
+  padding-top: 0.8rem;
 }
 
 .section:last-child {
@@ -57,6 +50,7 @@ h3 {
 
 h2 {
   font-size: 1.7em;
+  margin-bottom: 0.7rem;
 }
 
 h3 {
@@ -78,7 +72,7 @@ article {
 
 .beginging {
   color: #630709;
-  font-size: 1.5em;
+  font-size:1.6rem; 
 }
 
 /********************
@@ -88,8 +82,15 @@ article {
 nav {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 98%;
   margin: 0 auto;
+}
+
+h1 {
+  font-family: "Aref Ruqaa", serif;
+  font-size: 2em;
+  color: #630709;
+  padding-top:10px; 
 }
 
 /* burger  */

@@ -1,6 +1,7 @@
 @media only screen and (min-width: 769px) {
-  body {
-    font-size: 16px;
+
+  nav{
+    width: 92%;
   }
 
   .burger-active {
@@ -14,8 +15,7 @@
   .wrapper {
     width: 80vw;
   }
-}
-
+} 
 @media only screen and (min-width: 1025px) {
   body {
     font-size: 18px;
