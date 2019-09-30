@@ -11,7 +11,7 @@ html{
 }
 
 body {
-  /* user-select: none; */
+  /* user-select: none;<!> */
   outline: none;
   font-family: "Amiri", serif; 
   background-color: #d09d85;
@@ -63,11 +63,6 @@ h3 {
 
 article {
   color: #07020f;
-}
-
-.article-point {
-  font-size: 0.8em;
-  margin-bottom: 10px;
 }
 
 .symbol {
