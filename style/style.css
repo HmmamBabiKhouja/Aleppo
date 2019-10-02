@@ -98,11 +98,7 @@ h1 {
   margin: auto 0;
   transition: 0.5s;
   z-index: 2;
-}
-
-.burger-active {
-  position: fixed;
-  left: 5vw;
+  transition: step-end;
 }
 
 .burger-line {
@@ -147,12 +143,12 @@ h1 {
   list-style: none;
   width: 100%;
   height: 70vh;
-  margin-top: 3.3rem;
+  margin-top: 5.5rem;
 }
 
 .tabs-list > li {
-  font-size: 1.1rem;
-  margin-right: 14px;
+  font-size: 1.3rem;
+  margin-right: 1rem ;
 }
 
 .tabs-list > li > a {
