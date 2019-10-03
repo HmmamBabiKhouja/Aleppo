@@ -43,7 +43,15 @@
                 <h1>همام بابي خوجة</h1>
                 <p class="description">مسلم 🕋, قارئ شعر عربي ❤, مدمن قهوة ☕, مطور ويب 💛</p>
                 <!-- cover your img with picture and sources tags <!>-->
-                <img class="profile-pic"  src="../img/personal-img(596w).jpg" alt="my personal image">
+                <picture>
+                    <source type="image/webp" srcset="../img/personal-img(298w).webp 298w,
+                                                                            ../img/personal-img(596w).webp 596w" sizes="298px">
+                    <source type="image/jpg" srcset="../img/personal-img(298w).jpg 298w,
+                                                                            ../img/personal-img(596w).jpg 596w" sizes="298px">
+                    
+                    <img class="profile-pic" type="image/jpg" src="../img/fallback.jpg" alt="me and my nephew">
+                </picture>
+
                 <div class="social-block">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/intelligenctprogrammer"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
