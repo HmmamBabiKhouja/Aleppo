@@ -22,10 +22,10 @@ body {
   padding-bottom: 1.8rem;
 }
 
-body:lang(en){
+/* body:lang(en){
   font-family: 'Lato', sans-serif;
   line-height: 140%;
-}
+} */
 
 .content {
   border: 1.5px solid #0d0b0a;
