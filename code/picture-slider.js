@@ -25,9 +25,6 @@ function showDivs(num){
         dots[i].className = dots[i].className.replace(" active", "");
     }
 
-    // for(let i=0;i<dots.length;i++){
-    // }
-    
     dots[slideIndex - 1].className += " active";
     images[slideIndex-1].style.display="block";
 }
