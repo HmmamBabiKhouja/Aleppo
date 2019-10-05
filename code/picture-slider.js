@@ -11,7 +11,9 @@ function slide(num){
 
 function showDivs(num){
     let images = document.getElementsByClassName("img-slider");
+    let titles = document.getElementsByClassName("img-title");
     let dots = document.getElementsByClassName("dot");
+
 
     if(slideIndex>images.length){
         slideIndex=1;
@@ -25,6 +27,7 @@ function showDivs(num){
         dots[i].className = dots[i].className.replace(" active", "");
     }
 
+    titles[slideIndex -1].style.display="block";
     dots[slideIndex - 1].className += " active";
     images[slideIndex-1].style.display="block";
 }
