@@ -10,6 +10,7 @@ function slide(num){
 }
 
 function showDivs(num){
+    
     let images = document.getElementsByClassName("img-slider");
     let title= document.getElementsByClassName("img-title");
     let dots = document.getElementsByClassName("dot");
@@ -30,7 +31,7 @@ function showDivs(num){
 
     // for(let i=0;i<dots.length;i++){
     // }
-    
+    alert(images.length);
     images[slideIndex-1].style.display="block";
     title[slideIndex-1].style.display="block";
     dots[slideIndex - 1].className += " dot-active";
