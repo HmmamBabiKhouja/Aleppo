@@ -1,21 +1,24 @@
+
 @media only screen and (min-width: 769px) {
 
   nav{
     width: 92%;
   }
 
-  .burger-active {
-    margin-top: 0.9rem;
-  }
-
   .tabs-list {
     margin-top: 5.5rem;
+  }
+
+  .tabs-list > li {
+    margin-right: 1.6rem ;
+    font-size: 1.6rem;
   }
 
   .wrapper {
     width: 80vw;
   }
-} 
+}
+
 @media only screen and (min-width: 1025px) {
   body {
     font-size: 18px;
@@ -23,10 +26,6 @@
 
   .tabs-container {
     width: 20%;
-  }
-
-  .burger-active {
-    transform: translate(-90%);
   }
 
   .wrapper {

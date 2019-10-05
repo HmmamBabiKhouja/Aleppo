@@ -22,6 +22,11 @@ body {
   padding-bottom: 1.8rem;
 }
 
+body:lang(en){
+  font-family: 'Lato', sans-serif;
+  line-height: 140%;
+}
+
 .content {
   border: 1.5px solid #0d0b0a;
   border-radius: 5px;
@@ -51,7 +56,12 @@ h2 {
   color: #630709;
 }
 
-h2 {
+/* h1:lang(en),
+h2:lang(en){
+  font-family:  "Open Sans", sans-serif;
+} */
+
+h1 {
   font-size: 1.7em;
   margin-bottom: 0.7rem;
 }
@@ -93,11 +103,7 @@ h1 {
   margin: auto 0;
   transition: 0.5s;
   z-index: 2;
-}
-
-.burger-active {
-  position: fixed;
-  left: 5vw;
+  transition: step-end;
 }
 
 .burger-line {
@@ -142,12 +148,12 @@ h1 {
   list-style: none;
   width: 100%;
   height: 70vh;
-  margin-top: 3.3rem;
+  margin-top: 5.5rem;
 }
 
 .tabs-list > li {
-  font-size: 1.1rem;
-  margin-right: 14px;
+  font-size: 1.3rem;
+  margin-right: 1rem ;
 }
 
 .tabs-list > li > a {
