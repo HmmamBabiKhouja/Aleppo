@@ -164,25 +164,27 @@ h1 {
 /********************
 ****** IMAGES ******
 ********************/
-
 .img-container{
   position: relative;
   margin: 0 auto;
-  margin-bottom: 0;
+  margin-top: inherit;
 }
 
 .img-block{
   display: table;
-  position: relative;
   margin: 0 auto;
-  margin-bottom: 0;
+  position: relative;
 }
 
 /* imgs */
-.img-slider{
+.single-img{
+  display: block;
+  margin: 0 auto;
+  margin-top: inherit;
   border: 1px solid #0d0b0a;
-  border-radius: 5px;
+  border-radius: 3px;
 }
+
 
 /* arrows */
 .arrow {
