@@ -234,6 +234,7 @@ h1 {
 }
 
 .img-title {
+  display: inline;
   position: absolute;
   bottom: 0;
   width: 100%;
