@@ -160,14 +160,20 @@ h1 {
 ********************/
 
 .img-container{
-  display: table;
-  margin: 0 auto;
   position: relative;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.img-block{
+  display: table;
+  position: relative;
+  margin: 0 auto;
   margin-bottom: 0;
 }
 
 /* imgs */
-.img-border{
+.img-slider{
   border: 1px solid #0d0b0a;
   border-radius: 5px;
 }
