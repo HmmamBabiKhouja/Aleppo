@@ -24,10 +24,11 @@ function showDivs(num){
 
     for(let i=0;i<images.length;i++){
         images[i].style.display="none";
+        titles[i].style.display = "none";
         dots[i].className = dots[i].className.replace(" active", "");
     }
 
-    titles[slideIndex -1].style.display="block";
     dots[slideIndex - 1].className += " active";
-    images[slideIndex-1].style.display="block";
+    titles[slideIndex - 1].style.display="block";
+    images[slideIndex - 1].style.display="block";
 }

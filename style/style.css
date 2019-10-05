@@ -178,7 +178,7 @@ h1 {
 
 /* imgs */
 .single-img{
-  display: block;
+  display:none;
   margin: 0 auto;
   margin-top: inherit;
   border: 1px solid #0d0b0a;
@@ -227,6 +227,7 @@ h1 {
 /* img-title */
 
 .title {
+  position: relative;
   width: 100%;
   height: auto;
   text-align: center;
@@ -234,13 +235,14 @@ h1 {
 }
 
 .img-title {
-  display: inline;
+  display: none;
+  width: 100%;
   position: absolute;
   bottom: 0;
-  width: 100%;
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.8);
   font-size: 0.8em;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  margin: 0;
 }
 
 /* dots */
