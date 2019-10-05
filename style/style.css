@@ -22,6 +22,11 @@ body {
   padding-bottom: 1.8rem;
 }
 
+body:lang(en){
+  font-family: 'Lato', sans-serif;
+  line-height: 140%;
+}
+
 .content {
   border: 1.5px solid #0d0b0a;
   border-radius: 5px;
@@ -46,19 +51,34 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2{
   font-family: "Aref Ruqaa", serif;
   color: #630709;
 }
 
-h2 {
+h1:lang(en),
+h2:lang(en){
+  font-family:  "Open Sans", sans-serif;
+}
+
+h1 {
   font-size: 1.7em;
   margin-bottom: 0.7rem;
 }
 
-h3 {
-  margin-right: 10px;
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.7rem;
+}
+
+h1:lang(en) {
+  font-weight: 800;
+  margin-left: 5px; 
+}
+
+h2:lang(en) {
+  font-size: 1.1em;
+  font-weight: 700;
 }
 
 article {
