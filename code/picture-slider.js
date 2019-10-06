@@ -1,14 +1,18 @@
 let castle = { slideIndex: 1, name: "castle-" };
 let mosque = { slideIndex: 1, name: "mosque-" };
-let arr=[mosque,castle];
+let industry = { slideIndex: 1, name: "industry-" };
+let food = { slideIndex: 1, name: "food-" };
+
+let arr = [mosque, castle, industry,food];
 
 showDivs(castle);
 showDivs(mosque);
+showDivs(industry);
+showDivs(food);
 
 function dotJump(num,className){
     for(let i = 0 ;i<arr.length;i++){
         if(arr[i].name===className){
-            console.log(arr[i]);
             arr[i].slideIndex=num;
             showDivs(arr[i]);
         }
