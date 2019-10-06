@@ -1,0 +1,100 @@
+html{
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+}
+
+.src-page-nav>h2{
+    font-size: 2em;
+  padding-top:10px; 
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0 30px 0;
+}
+
+.doc-links{
+  margin-bottom: 48px;
+}
+
+span{
+    display: block;
+    margin:0 1rem 1rem 0;
+    font-size: 1.3rem;
+}
+
+.link{
+  text-decoration: none;
+  color: #884425; 
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+  max-width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.card > h1{
+  order: 2;
+  padding: 0 ;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.description{
+  padding: 0 8px;
+  order: 3;
+  color:#383838;
+  margin-bottom: 8px;
+}
+
+.profile-pic{
+  order: 1;
+  width: 100%;
+}
+
+.social-block{
+  background: rgba(63, 07, 09, 0.9);
+  width: 100%;
+  order: 4;
+  padding: 14px 7px 7px 7px ;
+  text-align: center;
+}
+
+.social{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.social-icon{
+  color: #f1e2db;
+  font-size: 2rem;
+}
+
+@media only screen and (min-width:1024px){
+  .flex{
+    flex-direction: row;
+    padding:33px;
+  }
+
+  span{
+    font-size:1.5rem; 
+  }
+
+  .card{
+      margin: auto auto auto 0;
+  }
+}
