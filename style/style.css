@@ -98,8 +98,8 @@ h1 {
 /* burger  */
 
 .burger {
-  display: block;
   cursor: pointer;
+  display: block;
   margin: auto 0;
   transition: 0.5s;
   z-index: 2;
@@ -107,7 +107,7 @@ h1 {
 }
 
 .burger-line {
-  cursor: pointer;
+
   height: 5px;
   width: 33px;
   background: #630709;
