@@ -51,32 +51,37 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Aref Ruqaa", serif;
   color: #630709;
 }
 
-/* h1:lang(en),
-h2:lang(en){
-  font-family:  "Open Sans", sans-serif;
-} */
-
 h1 {
-  font-size: 1.7em;
+  font-size: 2.2rem;
   margin-bottom: 0.7rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 article {
   color: #07020f;
+  margin-bottom:1rem; 
 }
 
 .symbol {
   font-size: 0.5em;
 }
 
-.beginging {
+.link{
   color: #630709;
-  font-size:1.6rem; 
+  font-size: 1.4rem;
 }
 
 /********************
