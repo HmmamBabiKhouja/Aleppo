@@ -21,6 +21,7 @@ html{
 
 .doc-links{
   margin-bottom: 48px;
+  max-width: 430px;
 }
 
 span{
