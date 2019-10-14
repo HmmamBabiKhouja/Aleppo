@@ -148,7 +148,14 @@ nav {
   margin: 0;
 }
 
-.tabs-container-active {
+.tabs-container:lang(EN) {
+  left:auto;
+  right: 0;
+  transform: translateX(100%);
+}
+
+.tabs-container-active,
+.tabs-container-active:lang(EN){
   transform: translateX(0%);
 }
 
@@ -166,6 +173,10 @@ nav {
 .tabs-list > li {
   font-size: 1.3rem;
   margin-right: 1rem ;
+}
+
+.tabs-list > li:lang(EN) {
+  margin-left: 1rem ;
 }
 
 .tabs-list > li > a {
@@ -240,7 +251,7 @@ nav {
   width: 100%;
   position: absolute;
   bottom: 0;
-  font-size: 0.8em;
+  font-size: 1.1rem;
   background-color: rgba(0, 0, 0, 0.8);
   color: #ffffff;
   margin: 0;
@@ -251,6 +262,10 @@ nav {
   width: 100%;
   height: auto;
   text-align: center;
+}
+
+.dots:lang(EN) {
+  margin-top: 0.6rem;
 }
 
 .dot {
@@ -296,5 +311,3 @@ nav {
   margin: 0 auto;
   padding: 0.1px;
 }
-
-/* change the imgs arrows dir <!> */
