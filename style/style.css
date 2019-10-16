@@ -78,14 +78,13 @@ h1 {
 }
 
 h1:lang(EN) {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 h2,
 h3 {
   font-size: 1.2rem;
 }
-
 
 article {
   color: #07020f;
@@ -108,7 +107,6 @@ article {
 nav {
   display: flex;
   justify-content: space-between;
-  width: 98%;
   margin: 0 auto;
 }
 
