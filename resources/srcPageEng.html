@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="EN" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/queries.css">
+    <link rel="stylesheet" href="srcStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:700&display=swap" rel="stylesheet">
+    <title>about</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="src-page-nav">
+            <h2>About</h2>
+        </nav>
+    </div>
+    
+    <div class="container content ">
+        <div class="container flex">
+            <div >
+                <div class="doc-links">
+                    <span>I tried to inspect honesty as much as possible on this project, I edited and changed the content a lot to be more precise. But I am not a professional author neigther archeologist, so I hope you contact me if you identified any typo or historical mistakes</span>
+                    <span>I did not include a war section becuase this project took me already around 50 days, especially I have 12 hours a day non-dev job. 
+                        So I thought to launch it then see people if they want a section about the Syrian civil war</span>
+                    <a href="https://drive.google.com/open?id=1HptQ1U5_kTrCvZpsT3UoRLudY4uotjzQ" class="link">high quality images</a>
+                </div>
+            </div>
+            <div class="card">
+                <h1>Hmmam Babi Khouja</h1>
+                <p class="description">muslim 🕋, Arabic poetry reader ❤, coffee addict ☕, web dev💛</p>
+                <!-- cover your img with picture and sources tags <!>-->
+                <picture>
+                    <source type="image/webp" srcset="../img/personal-img(298w).webp 298w,
+                                                                            ../img/personal-img(596w).webp 596w"
+                        sizes="298px">
+                    <source type="image/jpg" srcset="../img/personal-img(298w).jpg 298w,
+                                                                            ../img/personal-img(596w).jpg 596w"
+                        sizes="298px">
+
+                    <img class="profile-pic" type="image/jpg" src="../img/fallback.jpg" alt="me and my nephew">
+                </picture>
+
+                <div class="social-block">
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/intelligenctprogrammer">
+                                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                            </a></li>
+                        <li><a href="https://twitter.com/HKhuoja">
+                                <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                            </a></li>
+                        <li><a href="mailto:bhmmam@gmail.com">
+                                <ion-icon class="social-icon" name="mail"></ion-icon>
+                            </a></li>
+                        <li><a href="https://github.com/HmmamBabiKhouja">
+                                <ion-icon class="social-icon" name="logo-github"></ion-icon>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>
