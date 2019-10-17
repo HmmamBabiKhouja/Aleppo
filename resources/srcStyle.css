@@ -99,7 +99,8 @@ span{
       margin: auto auto auto 0;
   }
 
-    .card:lang(EN){
+  .card:lang(EN){
       margin: auto 0 auto auto;
   }
+
 }
